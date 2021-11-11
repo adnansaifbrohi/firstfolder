@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func hitME(_ sender: Any) {
+    @IBAction func clickMe(_ sender: Any) {
         let controller: forwardedViewController
         controller = storyboard?.instantiateViewController(withIdentifier: "forwardedViewController") as! forwardedViewController
         
